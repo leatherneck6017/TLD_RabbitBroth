@@ -1,0 +1,47 @@
+{
+    "RecipeName"                : "Rabbit Broth",
+    "RecipeShortName"           : "",
+    "RecipeDescription"         : "",
+    "RequiredSkillLevel"        : 1,
+    "AllowedCookingPots"        : ["GEAR_CookingPot"],
+    "BlueprintData"             : {
+        "Name"                  : "Broth",
+        "RequiredGear"          : [
+            {
+                "Item"          : "GEAR_RawMeatRabbit",
+                "Quantity"      : 1.5,
+                "Units"         : "Kilograms"
+            }
+        ],
+        "RequiredPowder"        : [
+            {
+                "Powder"        : "POWDER_Salt",
+                "QuantityInKilograms": 0.15
+            }
+        ],
+        "RequiredLiquid": [
+            {
+                "Liquid"        : "LIQUID_WaterPotable",
+                "VolumeInLitres": 1.5
+            }
+        ],
+        "RequiredTool"          : "",
+        "OptionalTools"         : [],
+        "CraftedResult"         : "GEAR_UncookedBroth",
+        "CraftedResultCount"    : 1,
+        "DurationMinutes"       : 60,
+        "CraftingAudio"         : "Play_CookSoup",
+        "KeroseneLitersRequired": "",
+        "GunpowderKGRequired"   : "",
+        "RequiresLight"         : false,
+        "Locked"                : false,
+        "IgnoreLockInSurvival"  : false,
+        "AppearsInStoryOnly"    : false,
+        "AppearsInSurvivalOnly" : false,
+        "AppliedSkill"          : "Cooking",
+        "ImprovedSkill"         : "Cooking",
+        "RequiredCraftingLocation": "Fire",
+        "RequiresLitFire"       : true,
+        "CanIncreaseRepairSkill": false
+    }
+}
